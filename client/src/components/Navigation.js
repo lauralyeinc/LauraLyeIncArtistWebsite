@@ -11,7 +11,9 @@ const Navigation = () => {
                 <NavLink exact to="/"> Home </NavLink>
                 <NavLink exact to="/artwork"> Showcase </NavLink>
                 <NavLink exact to="/shop" > Shop </NavLink>
+                    {/* May just link to etsy, for now  */}
                 <NavLink exact to="/classes"> Classes </NavLink>
+                    {/* Link to etsy for class payment, but "this" website hosts the videos, etc */}
             </div>
         </div>
         </>
