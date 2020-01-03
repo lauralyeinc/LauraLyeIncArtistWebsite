@@ -1,5 +1,8 @@
 import React from "react";
 
+import ArtCard from "../components/ArtCard";
+
+
 const Showcase = () => {
     return(
         <>
@@ -7,6 +10,7 @@ const Showcase = () => {
             <div className="Card-Area">
                 <h2> Find Something to Inspire You </h2>
                 {/* <EachCard />        ????    */}   
+                <ArtCard /> 
             </div>
             <div className="Blurb-Area"> 
             {/* <img src={} alt="Laura Theimer" />  */}
